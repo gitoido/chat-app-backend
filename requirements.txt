@@ -1,0 +1,4 @@
+gunicorn
+Eve
+Eve-Elastic
+Eve-Swagger
