@@ -4,7 +4,7 @@ from eve_swagger import swagger
 from eve_auth_jwt import JWTAuth
 import config
 
-app = Eve(settings=config.app, data=Elastic)
+app = Eve(settings=config.app, data=Elastic, auth=JWTAuth)
 app.register_blueprint(swagger)
 
 if __name__ == '__main__':
