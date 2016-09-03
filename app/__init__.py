@@ -6,7 +6,7 @@ from api.hooks import append_hooks
 import config
 
 
-app = Eve(settings=config.app, data=Elastic)
+app = Eve(settings=config.app)
 app.register_blueprint(swagger)
 
 if __name__ == '__main__':
