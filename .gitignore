@@ -1,3 +1,5 @@
 /.idea
 *.pyc
 /.elastic
+/.env
+/test.py

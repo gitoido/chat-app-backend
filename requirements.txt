@@ -1,5 +1,6 @@
 gunicorn
 Eve
-Eve-Elastic
 Eve-Swagger
 eve-auth-jwt
+autobahn
+twisted

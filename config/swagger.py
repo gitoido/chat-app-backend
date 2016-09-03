@@ -1,14 +1,14 @@
 api_doc_info = {
-    'title': 'My Supercool API',
+    'title': 'Chat API',
     'version': '1.0',
-    'description': 'an API description',
+    'description': 'API for chat application py Pavel Poronko',
     'termsOfService': 'my terms of service',
     'contact': {
-        'name': 'nicola',
-        'url': 'http://nicolaiarocci.com'
+        'name': 'Pavel Poronko',
+        'url': 'http://gibzzz.tk'
     },
     'license': {
-        'name': 'BSD',
-        'url': 'https://github.com/nicolaiarocci/eve-swagger/blob/master/LICENSE',
+        'name': 'MIT',
+        'url': 'https://github.com/warezgibzzz/chat-app-backend/blob/master/LICENSE',
     }
 }

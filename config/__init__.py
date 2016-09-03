@@ -3,8 +3,11 @@ import domain
 import swagger
 
 app = {
+    'URL_PREFIX': 'api',
+    'API_VERSION': 'v1',
+    'DEBUG': True,
     'SWAGGER_INFO': swagger.api_doc_info,
-    'ELASTICSEARCH_URL': os.getenv('BONSAI_URL', 'http://localhost:9200/'),
+    'MONGO_URI': os.getenv('MONGO_URI'),
     'ELASTICSEARCH_INDEX': 'chat',
     'RESOURCE_METHODS': ['GET', 'POST', 'DELETE'],
     'ITEM_METHODS': ['GET', 'PATCH', 'PUT', 'DELETE'],
