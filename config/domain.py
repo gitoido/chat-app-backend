@@ -1,0 +1,5 @@
+domain = {
+    'room': {},
+    'message': {},
+    'user': {}
+}

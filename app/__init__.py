@@ -1,8 +1,7 @@
 from eve import Eve
-from settings import domain
+import config
 
-DOMAIN = domain.DOMAIN
-app = Eve()
+app = Eve(settings=config.app)
 
 if __name__ == '__main__':
     app.run()
