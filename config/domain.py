@@ -1,5 +1,3 @@
-domain = {
-    'room': {},
-    'message': {},
-    'user': {}
-}
+from api import api
+
+domain = api
